@@ -22,6 +22,13 @@ This document contains detailed instructions for installing the necessary depend
 - Install PyTorch
 > conda install -c pytorch pytorch=1.5 torchvision=0.6.1 cudatoolkit=10.2
 
-
+- install other packages
+> conda install matplotlib pandas tqdm
+> pip install opencv-python tb-nightly visdom scikit-image tikzplotlib gdown
+> conda install cython scipy
+> sudo apt-get install libturbojpeg
+> pip install pycocotools jpeg4py
+> pip install wget yacs
+> pip install shapely==1.6.4.post2
 
 
